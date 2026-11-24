@@ -564,3 +564,173 @@ button:active {
     background-color: #173c32;
     color: #e8c784;
 }
+/* ========================================= */
+/* FUNCIONALIDAD 3: RETO OBLIGATORIO          */
+/* BIENESTAR Y CUIDADO PERSONAL              */
+/* ========================================= */
+
+
+/* SELECTOR DE IDENTIFICADOR */
+/* FONDOS, BORDES Y DIMENSIONES */
+
+#bienestar {
+    background-color: #ffffff;
+    border: 2px solid #a5b9a8;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1100px;
+    height: auto;
+    margin: 25px auto;
+    padding: 30px;
+}
+
+
+/* SELECTOR DESCENDIENTE */
+/* PROPIEDADES DE TEXTO */
+
+#bienestar p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+
+/* SELECTOR DE CLASE */
+
+.bienestar-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* TARJETAS DE BIENESTAR */
+
+.bienestar-tarjeta {
+    width: 45%;
+    min-width: min(250px, 100%);
+    max-width: 100%;
+    height: auto;
+    background-color: #eef4ee;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #a5b9a8;
+    border-radius: 12px;
+
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+/* IMÁGENES */
+
+.bienestar-tarjeta img {
+    width: 100%;
+    height: 230px;
+    min-height: 150px;
+    max-height: 300px;
+    object-fit: cover;
+
+    border: 2px solid #527966;
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+
+/* SELECTOR AGRUPADO */
+
+.bienestar-tarjeta h3,
+.bienestar-recomendaciones h3 {
+    font-family: Georgia, serif;
+    font-size: 23px;
+    font-weight: bold;
+    color: #245c46;
+    margin-bottom: 15px;
+}
+
+
+/* PSEUDOCLASE HOVER */
+
+.bienestar-tarjeta:hover {
+    background-color: #f5f7f2;
+    border-color: #986b25;
+}
+
+.bienestar-tarjeta img:hover {
+    opacity: 0.8;
+    border-color: #d4af67;
+}
+
+
+/* RECOMENDACIONES */
+
+.bienestar-recomendaciones {
+    background-color: rgb(238, 244, 238);
+    border-left: 5px solid #245c46;
+    border-radius: 8px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    padding: 20px;
+}
+
+.bienestar-recomendaciones ul {
+    padding-left: 30px;
+}
+
+.bienestar-recomendaciones li {
+    margin: 8px 0;
+    padding: 8px;
+}
+
+
+/* PSEUDOCLASE FIRST-CHILD */
+
+.bienestar-recomendaciones li:first-child {
+    font-weight: bold;
+    color: #245c46;
+}
+
+
+/* PSEUDOCLASE LAST-CHILD */
+
+.bienestar-recomendaciones li:last-child {
+    color: hsl(38, 65%, 35%);
+    font-weight: bold;
+}
+
+
+/* PSEUDOCLASE NTH-CHILD */
+
+.bienestar-recomendaciones li:nth-child(even) {
+    background-color: #e4eee6;
+    border-radius: 5px;
+}
+
+
+/* ENLACE EXTERNO */
+
+.bienestar-enlace {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.bienestar-enlace a:hover {
+    background-color: #986b25;
+    color: white;
+}
+
+.bienestar-enlace a:active {
+    background-color: #173c32;
+    color: #e8c784;
+}
